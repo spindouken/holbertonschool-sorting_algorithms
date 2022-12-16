@@ -22,7 +22,6 @@ void selection_sort(int *array, size_t size)
 		}
 		if (min != i)
 		{
-			printf("Swapping %d with %d\n", array[i], array[min]);
 			temp = array[i];
 			array[i] = array[min];
 			array[min] = temp;
